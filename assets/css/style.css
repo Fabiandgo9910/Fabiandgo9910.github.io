@@ -66,6 +66,23 @@ h6 {
   opacity: 1;
 }
 
+#cell {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background: #149ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+#icon-cell {
+  color: white;
+  font-size: 20px;
+}
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
