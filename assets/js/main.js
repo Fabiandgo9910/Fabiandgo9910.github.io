@@ -87,6 +87,18 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
+  let phone = select('.cell')
+  if (phone) {
+    const togglephone = () => {
+      if (window.scrollY > 100) {
+        phone.classList.add('my-5')
+      } else {
+        phone.classList.remove('my-5')
+      }
+    }
+    window.addEventListener('load', togglephone)
+    onscroll(document, togglephone)
+  }
 
   /**
    * Mobile nav toggle
