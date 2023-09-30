@@ -907,6 +907,7 @@ section {
 
 .contact .php-email-form label {
   padding-bottom: 8px;
+  color: black;
 }
 
 .contact .php-email-form input,
