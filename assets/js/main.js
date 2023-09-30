@@ -92,6 +92,18 @@
     window.addEventListener('load', togglephone)
     onscroll(document, togglephone)
   }
+  let form = select('#form')
+  if (form) {
+    const toggleform = () => {
+      if (window.scrollY > 100) {
+        form.classList.add('my-5')
+      } else {
+        form.classList.remove('my-5')
+      }
+    }
+    window.addEventListener('load', toggleform)
+    onscroll(document, toggleform)
+  }
 
   /**
    * Mobile nav toggle
