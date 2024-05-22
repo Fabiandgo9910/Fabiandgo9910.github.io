@@ -262,7 +262,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-size: cover;
   margin-bottom: -20px;
 }
@@ -272,9 +272,9 @@ h6 {
   top: 50%;
   left: 50%;
   min-width: 100%;
-  min-height: 110vh;
+  min-height: 115vh;
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   object-fit: cover;
   z-index: -1;
   margin-bottom: -20px;
