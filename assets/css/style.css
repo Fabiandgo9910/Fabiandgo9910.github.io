@@ -277,6 +277,7 @@ h6 {
   height: 100vh;
   object-fit: cover;
   z-index: -1;
+  margin-bottom: -20px;
   transform: translate(-50%, -50%);
 }
 
@@ -289,6 +290,7 @@ h6 {
   right: 0;
   z-index: 1;
   height: 102vh;
+  margin-bottom: -20px;
 }
 
 #hero .hero-container {
