@@ -131,7 +131,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: rgb(33, 36, 49);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -345,7 +345,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #272829;
 }
 
 .section-title {
