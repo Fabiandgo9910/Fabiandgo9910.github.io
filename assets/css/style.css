@@ -276,6 +276,7 @@ h6 {
   height: 100vh;
   object-fit: cover;
   z-index: -1;
+  margin-bottom: -10px;
   transform: translate(-50%, -50%);
 }
 
