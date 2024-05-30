@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Bradley Hand', cursive;
 }
 
 /*--------------------------------------------------------------
@@ -1055,7 +1055,7 @@ section {
 
 /* PERSONAL */
 .adicionar {
-  background-color: #149ddd;
+  background-color: rgb(20, 157, 221);
 }
 
 .adicionar:hover {
@@ -1088,4 +1088,24 @@ section {
 
 #login .container #login-row #login-column #login-box #login-form #register-link {
   margin-top: -85px;
+}
+
+.start {
+  background-color: rgb(20, 157, 221);
+}
+
+.start:hover {
+  background-color: rgb(20, 157, 221);
+}
+
+.nameLogo {
+  background: linear-gradient(to right, #FFD700, #FFCC66, #FFBB33, #FF9900, #FF8C00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  background: linear-gradient(to right, #FFD700, #FFCC66, #FFBB33, #FF9900, #FF8C00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

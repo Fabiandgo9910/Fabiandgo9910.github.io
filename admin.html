@@ -1,3 +1,20 @@
+<script>
+
+    if (!localStorage.token) {
+        window.location.href = 'login.html';
+    }
+
+    function Salir() {
+        confirm('Estas seguro que quieres salir?')
+        /////
+        console.log('====================================');
+        console.log('hola');
+        console.log('====================================');
+        localStorage.removeItem('token')
+        window.location.href = 'index.html';
+
+    }
+</script>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -34,31 +51,35 @@
 </head>
 
 <body>
-<!-- Modal de confirmación -->
-<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="confirmModalLabel">Confirmar acción</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                ¿Está seguro de que desea realizar esta acción?
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary">Confirmar</button>
+    <!-- Modal de confirmación -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmModalLabel">Confirmar acción</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Está seguro de que desea realizar esta acción?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Confirmar</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
     <!-- ======= Gallery Section ======= -->
     <section id="portfolio" class="portfolio bg-dark text-light">
+
         <div class="container">
             <div class="section-title">
                 <h2>Admin/Galería</h2>
+                <button class="btn btn-danger" onclick="Salir()" style="position: absolute;right:15%;">
+                    Salir de administración
+                </button>
             </div>
 
             <button class=" btn btn-info adicionar m-5">
