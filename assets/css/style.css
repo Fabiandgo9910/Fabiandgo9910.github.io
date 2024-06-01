@@ -1096,3 +1096,10 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@supports (-webkit-touch-callout: none) {
+  video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+  }
+}
